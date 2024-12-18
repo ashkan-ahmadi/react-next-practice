@@ -1,7 +1,6 @@
-'use client'
-
 // import { useEffect, useState } from 'react'
 import './bs.css' // Bootstrap v5.3.3 CSS
+
 import UserInfoByID from './UserInfoByID/UserInfoByID'
 
 export default function Home() {
