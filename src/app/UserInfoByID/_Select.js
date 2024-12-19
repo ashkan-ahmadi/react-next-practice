@@ -4,13 +4,13 @@ export default function Select({ setUserId }) {
       <select
         className="form-select mb-4"
         id="select"
-        defaultValue={0}
+        defaultValue={0} // suggested by React - While defaultValue sets an initial value and does not control subsequent updates, the value prop is used for controlled inputs where the React state always drives the value. - https://www.dhiwise.com/post/mastering-defaultvalue-in-react-select-best-practices
         onChange={e => {
           setUserId(e.target.value)
         }}
       >
         <option disabled value="0">
-          Select ID
+          Select userId
         </option>
         <option value="1">1</option>
         <option value="2">2</option>

@@ -1,4 +1,7 @@
 'use client'
+// you MUST USE 'use client' if you want to use hooks
+// in the latest version of Next, it uses server components by default where hooks do not exist
+// https://nextjs.org/docs/app/building-your-application/rendering/client-components
 
 import { useEffect, useState } from 'react'
 
